@@ -25,6 +25,17 @@ import org.opencv.highgui.Highgui;
  */
 public class Comp extends javax.swing.JFrame {
 
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton compareBtn;
+    private javax.swing.JButton imageBtn1;
+    private javax.swing.JButton imageBtn2;
+    private javax.swing.JLabel imageLabel1;
+    private javax.swing.JLabel imageLabel2;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    // End of variables declaration//GEN-END:variables
+    
+    String path1,path2;
     /**
      * Creates new form Comp
      */
@@ -32,7 +43,6 @@ public class Comp extends javax.swing.JFrame {
         initComponents();
     }
 
-    String path1,path2;
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -312,14 +322,4 @@ public class Comp extends javax.swing.JFrame {
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton compareBtn;
-    private javax.swing.JButton imageBtn1;
-    private javax.swing.JButton imageBtn2;
-    private javax.swing.JLabel imageLabel1;
-    private javax.swing.JLabel imageLabel2;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    // End of variables declaration//GEN-END:variables
 }
